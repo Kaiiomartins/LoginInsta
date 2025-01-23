@@ -1,0 +1,135 @@
+.filterConteudo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    color: rgb(247, 242, 242);
+    border: 1px solid rgb(131, 128, 128);
+    width: 255px;
+    padding-right: 10px;
+
+}
+
+.filterConteudo2 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    margin: 9px auto;
+    color: rgb(249, 255, 253);
+    border: 1px solid rgb(109, 109, 109);
+    justify-content: center;
+
+}
+
+.filterConteudo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 34%;
+    color: rgb(196, 199, 202);
+    border-radius: 5px;
+    margin-left: 15%;
+}
+
+.filterConteudo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 26%;
+    margin: 9px auto;
+    color: rgb(121, 121, 121);
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+.filterConteudo5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+    color: rgb(196, 199, 202);
+
+}
+
+h1 {
+
+
+    font-family: 'Pacifico', cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: CENTER;
+    margin-right: 17%;
+
+
+}
+
+.filterConteudo6 {
+
+    width: 50px;
+    height: 286px;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+}
+
+
+
+.filterConteudo7 {
+
+    width: 10px;
+    height: 10px;
+    margin-right: 300px;
+}
+
+
+.filtroConteudo8 {
+
+    text-align: center;
+    width: 198px;
+    margin: -28px;
+    transform-origin: center;
+    margin-left: 15px;
+    margin-top: -40px;
+
+}
+
+.filtroConteudo9 {
+
+    margin-top: -80px;
+    margin-left: 3px;
+    color: white;
+    margin-top: -73%;
+    text-align: center;
+}
+
+.filterConteudo10 {
+
+    margin-top: 81%;
+    margin-left: -71%;
+    font-size: 58%;
+    align-items: center;
+    justify-items: center;
+}
+
+.filterConteudo11 {
+
+    margin-top: 122%;
+    margin-left: -86%;
+    font-size: 50%;
+}
+
+a {
+    color: #ffffff;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}

@@ -1,0 +1,46 @@
+.buttonFacebook {
+    background-color: deepskyblue;
+    color: rgb(250, 249, 249);
+    border-radius: 15px;
+    border: 1px solid beige;
+    width: 200px;
+    height: 31px;
+    padding: 1px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -219px;
+    margin-top: -82%;
+}
+
+.StilosInput input {
+    width: 90%;
+    padding: 5px;
+    margin: 3px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 10%;
+    background: #696969a3;
+    color: white;
+
+}
+
+
+.frase {
+    margin-top: -125px;
+    margin-left: -76%;
+    color: rgba(250, 250, 250, 0.363);
+    width: 161px;
+    height: 33px;
+    padding: 13px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: -184px;
+    font-size: 82%;
+
+}
+
+
+
+.facebook-button .material-icons {
+    font-size: 20px;
+}
