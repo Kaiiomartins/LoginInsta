@@ -1,5 +1,4 @@
 .SingUP {
-
     background-color: deepskyblue;
     color: rgb(250, 249, 249);
     border-radius: 15px;
@@ -9,7 +8,7 @@
     padding: 1px;
     text-align: center;
     cursor: pointer;
-    margin-left: -226px;
-    margin-top: 152%;
-
+    margin-left: -163px;
+    margin-top: 159%;
+    padding-top: 92%;
 }

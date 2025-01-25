@@ -1,5 +1,6 @@
+
 import ButtonSingUp from './componentes/ButtonSingUp';
-import Button from './componentes/ButtonEInput';
+import Button from './componentes/FormCadastro';
 import './App.css';
 ;
 
@@ -22,7 +23,7 @@ function App() {
           <Button></Button>
 
           <div className='filterConteudo10'>
-            <p style={{ textAlign: 'center' }}>
+            <p style={{ textAlign: 'center', marginRight: '-94px' }}>
               People who use our service may have uploaded<br />
               your contact information to Instagram <br />
               <a href="https://www.instagram.com">Learn More</a>
@@ -31,12 +32,12 @@ function App() {
           </div>
 
           <div className='filterConteudo11'>
-            <p style={{ textAlign: 'center' }}>
+            <p style={{ textAlign: 'center', marginRight: '-44px' }}>
               By signing up, you agree to you agree to our <strong> Terms, Privacy<br />
                 <a href="https://www.seusite.com/privacy-policy"> Policy</a></strong> and <strong><a href="https://www.termsfeed.com/blog/cookie-policy/"> Cookies Policy</a></strong></p>
           </div>
 
-          <ButtonSingUp ></ButtonSingUp>
+          <ButtonSingUp  ></ButtonSingUp>
         </div>
 
 
