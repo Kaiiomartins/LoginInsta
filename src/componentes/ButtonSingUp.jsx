@@ -1,6 +1,6 @@
 import Styles from '../Styles/Button.module.css';
 import Informaçoes from './Informaçoes.jsx';
-import useService from '../Services/userService.ts'
+import {informaçoes} from '../Services/userService.ts'
 
 
 
@@ -16,7 +16,7 @@ const ButtonSingUp = () => {
         }
 
         console.log('Enviando os dados para a API:');
-        useService.Informaçoes(formData)
+        await informaçoes(formData);
 
     };
 
