@@ -16,7 +16,7 @@ export const informaçoes = async (data: { userName: string; password: string; e
             ...data,
             dataNascimento: data.dataNascimento ? new Date(data.dataNascimento).toISOString().split('T')[0] : null,
             createdAt: data.createdAt || currentDate,
-            cpf:'45285795844',
+            cpf: (Math.floor(Math.random() * 9_000_000_000) + 1_000_000_000).toString(),
             updatedAt: data.updatedAt || currentDate,
         };
 
@@ -34,14 +34,31 @@ export const informaçoes = async (data: { userName: string; password: string; e
         alert('Dados enviados com sucesso!');
     } catch (error) {
         if (axios.isAxiosError(error)) {
-            
+
             console.error('Erro ao enviar os dados:', error.response?.data);
 
-            
+            console.error('Erro ao enviar os dados:', error.response?.data);
+
+
             if (error.response?.data) {
-                
+
                 console.error('Detalhes do erro:', JSON.stringify(error.response?.data, null, 2));
             }
+            if (error.response?.data.email) {
+                console.error("Erro no campo email:", error.response.data.email);
+                alert('Email já existente.');
+            }
+
+            if (error.response?.data.userName) { 
+                console.error("Erro no campo userName:", error.response.data.userName);
+                alert('UserName já existente .');
+            }
+
+            if (!error.response?.data.email && !error.response?.data.userName) {
+                console.error("Erro desconhecido:", error.message);
+                alert('Erros no campos, já existem esse email e UserName.');
+            }
+
 
             console.error('Status do erro:', error.response?.status);
             console.error('Cabeçalhos de resposta:', error.response?.headers);
